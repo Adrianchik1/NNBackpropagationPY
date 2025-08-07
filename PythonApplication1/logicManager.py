@@ -2,6 +2,9 @@ import numpy as np
 import copy
 from iterate import iteration
 from weightsBiases import Layer_Dense
+from calculateZ import CalculateZ
+from calculateA import CalculateA
+from losses import MSELoss
 
 class Optimiser():
     def __init__(self, X, y, activations, change):
@@ -10,58 +13,31 @@ class Optimiser():
         self.activations = activations
         self.change = change
 
-    def optimiseSingleWeight(self, loss, denses, nthElem):
-        
-        positiveDenses = Layer_Dense.ChangeWeight(denses, nthElem, self.change)     #change Nth weight by change
-        negativeDenses = Layer_Dense.ChangeWeight(denses, nthElem, -self.change)
+    def compute_delta_l(self, W_next, delta_next, z_l, activation_derivative):
+        propagated = W_next @ delta_next  # shape (n_l, 1)
+        sigma_prime = activation_derivative(z_l)  # shape (n_l, 1)
+        delta_l = propagated * sigma_prime  # element-wise multiplication
+        return delta_l
 
-        positiveLoss = iteration(self.X, self.y, positiveDenses, self.activations)  #calculates new loss
-        negativeLoss = iteration(self.X, self.y, negativeDenses, self.activations)
-        loss = iteration(self.X, self.y, denses, self.activations)                  #calculates loss with old weights
+    def gradient(self, delta_l, a_prev):
+        return np.dot( a_prev, delta_l.T)/ len(self.X)
 
-        losses = [(positiveLoss, positiveDenses),
-                  (negativeLoss, negativeDenses),
-                  (loss, denses)] 
-        return min(losses, key=lambda x: x[0])      #comperse losses, and outputs the best loss and denses
+    def sigmoid(self, z):
+        return 1 / (1 + np.exp(-z))
 
-    def optimiseSingleBias(self, loss, denses, nthElem):
-        positiveDenses = Layer_Dense.ChangeBias(denses, nthElem, self.change)
-        negativeDenses = Layer_Dense.ChangeBias(denses, nthElem, -self.change)
+    def sigmoid_derivative(self, z):
+        s = self.sigmoid(z)
+        return s * (1 - s)
 
-        positiveLoss = iteration(self.X, self.y, positiveDenses, self.activations)
-        negativeLoss = iteration(self.X, self.y, negativeDenses, self.activations)
+    def optimise(self):
+        numberOfLayers = len(Layer_Dense.LayerDenseInstances)
+        deltas =  [None for _ in range(numberOfLayers)]
+        deltas[-1] = (MSELoss.backward())  
+        for i in range((numberOfLayers-1), 0, -1):
+            delta = self.compute_delta_l(Layer_Dense.LayerDenseInstances[i].weights, deltas[i], CalculateZ.CalculateZInstances[0].z[i-1], self.sigmoid_derivative)
+            deltas[i-1] = delta
 
-        losses = [(positiveLoss, positiveDenses),
-                  (negativeLoss, negativeDenses),
-                  (loss, denses)] 
-        return min(losses, key=lambda x: x[0]) 
-     
-     
-    def calculateAmountOfWeights(self, denses):
-        amountOfWeights = []
-        for dense in denses:
-            amountOfWeightsInDense = len(dense.weights.flatten())
-            amountOfWeights.append(amountOfWeightsInDense)
-        return amountOfWeights
-
-    def whichBias(self, denses, amountOfWeights, whichWeight):
-        whichBias = 0
-        for i in range(len(denses)):
-            if amountOfWeights[i] > whichWeight:
-                whichBias += whichWeight % len(denses[i].biases[0])
-                return whichBias
-            else:
-                whichWeight -= amountOfWeights[i]
-                whichBias += len(denses[i].biases[0]) 
-
-
-    def optimise(self, loss, denses):
-        amountOfWeights = self.calculateAmountOfWeights(denses)             #calculates amount of weights in every dense(posible output: [35, 15, 9])
-        for whichWeight in range(Layer_Dense.totalAmountOfWeights):         #changes one weight per iteration
-            whichBias = self.whichBias(denses, amountOfWeights, whichWeight)        #calculates which bias should be changed
-            loss, denses = self.optimiseSingleWeight(loss, denses, whichWeight)     #optimises single weight
-            #whichBias = whichWeight//len(denses[0].biases[0])
-            loss, denses = self.optimiseSingleBias(loss, denses, whichBias)
-
-        return loss, denses
+        for i, dense in enumerate(Layer_Dense.LayerDenseInstances):
+            dense.weights -= self.change * self.gradient(deltas[i], CalculateA.a[i])
+            dense.biases -= self.change * deltas[i].T.mean(axis=0, keepdims=True)
 

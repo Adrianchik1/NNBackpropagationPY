@@ -11,11 +11,9 @@ def makeChart(float_list):
 
     ax.axhline(0, color='black', linewidth=0.5)
 
-    ax.yaxis.set_major_formatter(mticker.FormatStrFormatter('%.3f'))
+    ax.yaxis.set_major_formatter(mticker.FormatStrFormatter('%.7f'))
 
     ax.spines[['top', 'right']].set_visible(False)
     plt.grid(False)
     plt.tight_layout()
     plt.show()
-
-    #LOX

@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="calculateA.py" />
+    <Compile Include="calculateZ.py" />
     <Compile Include="charts.py" />
+    <Compile Include="generateData.py" />
     <Compile Include="iterate.py" />
     <Compile Include="logicManager.py" />
     <Compile Include="weightsBiases.py" />
