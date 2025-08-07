@@ -19,11 +19,8 @@ class Loss_CategoricalCrossentrophy(Loss):
         negative_log_likelihoods = -np.log(correct_confidences)
         return negative_log_likelihoods
 
-class MSELoss(Loss):
+class MSELoss(Loss): 
     diff = None
-    # MSELossInstances = []
-    # def __init__(self):
-    #     self.MSELossInstances.append(self)
     def forward(self, predictions, targets):
         predictions = np.array(predictions)
         targets = np.array(targets)
@@ -33,7 +30,4 @@ class MSELoss(Loss):
         return mse
     @staticmethod
     def backward():
-        # diff_single = MSELoss.diff[0]  # shape (output_size,)
-        # delta = (2 * diff_single / len(MSELoss.diff)).reshape(-1, 1)  # shape (output_size, 1)
-        #return delta
         return (2 * MSELoss.diff / len(MSELoss.diff)).T

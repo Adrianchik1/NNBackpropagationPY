@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\logicManager.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\logicManager.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\calculateA.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\calculateA.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\generateData.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\generateData.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\charts.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\charts.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\PythonApplication1.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\PythonApplication1.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\generateData.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\generateData.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\charts.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\charts.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\PythonApplication1.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\PythonApplication1.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\calculateA.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\calculateA.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\iterate.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\iterate.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\weightsBiases.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\weightsBiases.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\weightsBiases.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\weightsBiases.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\losses.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\losses.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\iterate.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{74C3170D-AD9D-40B4-B66B-88734011D055}|PythonApplication1\\PythonApplication1.pyproj|solutionrelative:PythonApplication1\\iterate.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\losses.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PythonApplication1\\losses.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,19 +42,18 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "charts.py",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\charts.py",
               "RelativeDocumentMoniker": "PythonApplication1\\charts.py",
               "ToolTip": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\charts.py",
               "RelativeToolTip": "PythonApplication1\\charts.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-06T13:15:56.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "generateData.py",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\generateData.py",
               "RelativeDocumentMoniker": "PythonApplication1\\generateData.py",
@@ -66,12 +61,11 @@
               "RelativeToolTip": "PythonApplication1\\generateData.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-06T13:09:16.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T13:09:16.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PythonApplication1.py",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\PythonApplication1.py",
               "RelativeDocumentMoniker": "PythonApplication1\\PythonApplication1.py",
@@ -83,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "iterate.py",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\iterate.py",
               "RelativeDocumentMoniker": "PythonApplication1\\iterate.py",
@@ -120,25 +114,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "logicManager.py",
-              "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\logicManager.py",
-              "RelativeDocumentMoniker": "PythonApplication1\\logicManager.py",
-              "ToolTip": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\logicManager.py",
-              "RelativeToolTip": "PythonApplication1\\logicManager.py",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAhwCIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-08-05T16:36:13.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "calculateA.py",
               "DocumentMoniker": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\calculateA.py",
               "RelativeDocumentMoniker": "PythonApplication1\\calculateA.py",
               "ToolTip": "C:\\Users\\adria\\source\\repos\\NNusingBackpropagation\\PythonApplication1\\calculateA.py",
               "RelativeToolTip": "PythonApplication1\\calculateA.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-08-05T16:36:01.453Z"
             }
