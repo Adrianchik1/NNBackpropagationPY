@@ -12,7 +12,17 @@ The graphs could look like this:
 ![changeOfLoss](images/changeOfLoss.png)
 ![examchangeOfLossPerIterationple](images/changeOfLossPerIteration.png)
 
-You can adjust both the number of iterations and the magnitude by which the weights and biases are updated in each iteration in [main.py](PythonApplication1/main.py). At the end of the program, it will display two graphs: the first shows the overall change in loss per iteration, while the second illustrates how the loss varies with each iteration.
+Advaced usage:
+
+You can adjust both the number of iterations and the magnitude by which the weights and biases are updated in each iteration by using the following parameters.
+
+* `-i` - Number of iterations (positive value > 0, default 10000)
+* `-m` - magnitude (floating point value, default 0.05)
+
+Here is an example:
+
+    python3 PythonApplication1/main.py -i 
+
 
 ## Prerequsites
 
