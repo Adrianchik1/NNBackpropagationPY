@@ -42,6 +42,5 @@ for i in range(0, iterations):          #cycle which will optimize NN the requir
 
 print(loss)
 print(iterations)
-makeChart(losses)
-makeChart(differenceOfLosses)
-input("Press enter to exit")
+makeChart(losses, "changeOfLoss.png")
+makeChart(differenceOfLosses, "changeOfLossPerIteration.png")

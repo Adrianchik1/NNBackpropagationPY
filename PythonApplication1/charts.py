@@ -1,8 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+import os
 
-def makeChart(float_list):
+def makeChart(float_list, name):
     x = np.arange(len(float_list))
     y = np.array(float_list, dtype=float)
 
@@ -16,4 +17,4 @@ def makeChart(float_list):
     ax.spines[['top', 'right']].set_visible(False)
     plt.grid(False)
     plt.tight_layout()
-    plt.show()
+    plt.savefig(os.path.join('images', name))
