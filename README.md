@@ -21,7 +21,7 @@ You can adjust both the number of iterations and the magnitude by which the weig
 
 Here is an example:
 
-    python3 PythonApplication1/main.py -i 
+    python3 PythonApplication1/main.py -i 100000 -m 0.001
 
 
 ## Prerequsites
