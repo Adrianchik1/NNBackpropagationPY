@@ -69,10 +69,12 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-if not (1 <= args.iterations):
-    parser.error("iterations must be >= 1")
-
-generate(args.iterations, args.multiplier)
+# Train the network
+denses = generate(args.iterations, args.multiplier)
 
 print(f"Iterations: {args.iterations}")
 print(f"Multiplier: {args.multiplier}")
+
+# Visualize the trained network
+print("\nOpening neural network visualizer...")
+visualize_network(denses)
