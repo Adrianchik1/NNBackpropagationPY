@@ -68,8 +68,6 @@ class NeuralNetworkVisualizer:
         self.ax_info.clear()
         
         # Left subplot: Network architecture
-        self.ax_network.set_xlim(-1, len(self.layer_sizes))
-        self.ax_network.set_ylim(-1, max(self.layer_sizes) + 1)
         self.ax_network.axis('off')
         
         # Add iteration info to title if snapshots available
@@ -503,7 +501,7 @@ class NeuralNetworkVisualizer:
             
             # Comparison dropdown
             self.ax_compare = self.fig.add_subplot(gs[1:3, 2])
-            self.ax_compare.set_position([0.89, 0.50, 0.10, 0.35])
+            self.ax_compare.set_position([0.89, 0.30, 0.10, 0.35])
         else:
             self.ax_info = self.fig.add_subplot(gs[0, 1:])
         
@@ -561,7 +559,7 @@ class NeuralNetworkVisualizer:
         # Reposition button after tight_layout (which resets positions)
         if hasattr(self, 'ax_button'):
             # [left, bottom, width, height]
-            self.ax_button.set_position([0.90, 0.89, 0.08, 0.035])
+            self.ax_button.set_position([0.90, 0.70, 0.08, 0.035])
         
         print("\n" + "="*60)
         print("Visualization window opening...")
