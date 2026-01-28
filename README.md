@@ -6,11 +6,10 @@ You can start the programm by calling the `main.py` script:
 
     python3 PythonApplication1/main.py
 
-After the execution you find this two graphs as result.
+After the execution you find this graph as result.
 
-The graphs could look like this:
-![changeOfLoss](images/changeOfLoss.png)
-![examchangeOfLossPerIterationple](images/changeOfLossPerIteration.png)
+The graph could look like this:
+![combined_loss_charts](images/combined_loss_charts.png)
 
 Advaced usage:
 
